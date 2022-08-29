@@ -2371,10 +2371,8 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement("a", { target: "_blank", rel: "noreferrer", href: "" },
-            React.createElement("img", { src: "https://dogebox.netlify.app/images/egg/33.png" })),
         React.createElement("a", { target: "_blank", rel: "noreferrer", href: "https://dogechain.dog/" },
-            React.createElement("img", { src: "https://bridge.dogechain.dog/imgs/dogechain.png" })),
+            React.createElement("img", { src: "/images/egg/33.png" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
