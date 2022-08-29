@@ -39,7 +39,8 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <a target="_blank" rel="noreferrer" href="https://dogechain.dog/"><img src="url('/images/egg/3b.png');" /></a>
+      <a target="_blank" rel="noreferrer" href=""><img src="https://dogebox.netlify.app/images/egg/33.png" /></a>
+      <a target="_blank" rel="noreferrer" href="https://dogechain.dog/"><img src="https://bridge.dogechain.dog/imgs/dogechain.png" /></a>
       <PanelFooter {...props} />
     </StyledPanel>
   );
